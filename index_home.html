@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poller+One&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="https://freewebsitetemplates.com/preview/mustacheenthusiast/images/logo.jpg"
+          alt="logo"
+        />
+      </div>
+      <div class="nav" id="nav">
+        <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+        <a href="./index_home.html">HOME</a>
+        <a href="./about.html">ABOUT</a>
+        <a href="./gallary.html">GALLERY</a>
+        <a href="./blog.html">BLOG</a>
+        <a href="./contact.html">CONTACT</a>
+      </div>
+      <span id="open" class="open" onclick="openNav()">&#9776</span>
+      <div class="centered">
+        <div class="background_photo">
+              <h1>The beacon to all mankind</h1>
+              <h3>
+                Our website templates are created with inspiration, check for quality
+                and originality and meticulously sliced and coded.
+              </h3>
+              <h2>Read More</h2>
+            </div>
+    </header>
+    <section class="images">
+      <img class="Father"
+        src="https://freewebsitetemplates.com/preview/mustacheenthusiast/images/the-father.jpg"
+        alt="Father"
+      />
+      <h1 class="photo_titles">The Father</h1>
+      <img
+        src="https://freewebsitetemplates.com/preview/mustacheenthusiast/images/the-actor.jpg"
+        alt="actor"
+      />
+      <h1 class="photo_titles">The actor</h1>
+      <img 
+        src="https://freewebsitetemplates.com/preview/mustacheenthusiast/images/the-nerd.jpg"
+        alt="nerd"
+      />
+      <h1 class="photo_titles">The nerd</h1>
+    </section>
+    <footer>
+      <p>© 2023 by Mustacchio. All rights reserved.</p>
+      <a href="https://twitter.com/" class="fa fa-twitter"></a>
+      <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+      <a href="https://www.google.com/" class="fa fa-google"></a>
+      <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+    </footer>
+    <script>
+      function openNav () {
+        document.getElementById("open").style.display = "none";
+        document.getElementById("nav").style.width = "100%";
+      }
+      function closeNav () {
+        document.getElementById("nav").style.width = "0";
+        document.getElementById("open").style.display = "block";
+      }
+
+    </script>
+  </body>
+</html>
