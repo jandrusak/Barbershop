@@ -17,7 +17,7 @@
   <body>
     <header>
       <div class="logo">
-        <img
+        <img class="logo_image"
           src="https://freewebsitetemplates.com/preview/mustacheenthusiast/images/logo.jpg"
           alt="logo"
         />
@@ -35,6 +35,53 @@
     <section>
       <h1 class="contact_title">Let's keep in touch</h1>
     </section>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <textarea name="comments" id="comments" cols="30" rows="10" minlength="20" maxlength="500" ></textarea>
+      </div>
+      <div>
+        How did you hear about me?
+        <div>
+          <label for="Classmate">Classmate</label>
+          <input type="Checkbox" name="Classmate" id="Classmate" />
+        </div>
+        <div>
+          <label for="Resume">Resume Submission</label>
+          <input type="checkbox" name="Resume" id="Resume" />
+        </div>
+
+        <div>
+          <label for="LinkedIn">LinkedIn</label>
+          <input type="checkbox" name="LinkedIn" id="LinkedIn" />
+        </div>
+        <div>
+          <label for="CAR">Coding Academy Rec</label>
+          <input type="checkbox" name="CAR" id="CAR" />
+        </div>
+      </div>
+      <div>
+        Can we contact you? 
+        <div>
+          <label for="Yes">Yes</label>
+          <input type="radio" name="Yes" id="Yes" value="Yes" />
+        </div>
+        <div>
+          <label for="No">No</label>
+          <input type="radio" name="No" id="No" value="No" />
+        </div>
+      </div>
+      <div>
+        <label for="date">Birthday Wishes?</label>
+        <input type="date" name="date" id="date" min="2019-06-10" />
+      </div>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+   
 
 
 
@@ -55,6 +102,10 @@
         document.getElementById("open").style.display = "block";
       }
 
+      { src="main.js"></script>
+    }
+
     </script>
+
   </body>
 </html>
